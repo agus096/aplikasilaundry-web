@@ -1,11 +1,5 @@
 RewriteEngine On
 
-#mengubah halaman awal (jadi bukan lagi index.php)
-#di komentar karena web ini masih menggunakan index.php
-    #RewriteEngine on
-    #RewriteRule ^$ home.php [L]
-#
-
 #mencegah Directory Listing
 #utamakan buat index.php yg direct ke hal 404 
 #Options -Indexes sebagai backup saja takut ada yang kelupaan
